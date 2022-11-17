@@ -7,10 +7,10 @@ int main() {
     float x;
     float y;
     cin>>a>>b>>x>>y;
-    if (x<0,y>0){
+    if (x<0&&y>0){
         cout<<a*x-b*y<<endl;
     }
-    else if (x>=0,y<=0){
+    else if (x>=0&&y<=0){
         cout<<a*(x*x)-b*y<<endl;
     }
     else{
