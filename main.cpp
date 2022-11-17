@@ -8,7 +8,7 @@ int main() {
     float y;
     cin>>a>>b>>x>>y;
     if (x<0,y>0){
-        cout<<(a*x)-(b*y)<<endl;
+        cout<<a*x-b*y<<endl;
     }
     else if (x>=0,y<=0){
         cout<<a*(x*x)-b*y<<endl;
